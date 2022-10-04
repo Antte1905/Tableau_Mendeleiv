@@ -3,7 +3,7 @@ int elements(int Entry){
 
   switch (Entry) {
     case 1:
-      Nom_Atome = "Hydrogen_Hclear";
+      Nom_Atome = "Hydrogen_H";
       break;
     case 2:
       Nom_Atome = "Helium_He";
@@ -59,7 +59,7 @@ int elements(int Entry){
     default:
       Nom_Atome = "Atome non existant ou valeur non reconnue";
   }
-  std::cout << "NRéponse: " << Nom_Atome << std::endl;
+  std::cout << "======================================================\n NRéponse: " << Nom_Atome << "\n======================================================\n";
 
   return 0;
 }
